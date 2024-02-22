@@ -1,0 +1,273 @@
+repo_name: LuckDev22/Hyperion-Grupo2
+report_id: 7c9784cda8eabfeb2523b1637108fd23
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-22T14:34:06+00:00'
+requested_by: MattCari
+provider: github
+branch: main
+detected_tools_count: 19
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/LuckDev22/Hyperion-Grupo2/blob/main/Hyperion/package.json
+  detection_source: Hyperion/package.json
+  last_updated_by: Mateus Carius
+  last_updated_on: 2023-03-06 17:46:37.000000000 Z
+- name: TypeScript
+  description: A superset of JavaScript that compiles to clean JavaScript output
+  website_url: http://www.typescriptlang.org
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1612/bynNY5dJ.jpg
+  detection_source_url: https://github.com/LuckDev22/Hyperion-Grupo2
+  detection_source: Repo Metadata
+- name: React
+  description: A JavaScript library for building user interfaces
+  website_url: https://reactjs.org/
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1020/OYIaJ1KK.png
+  detection_source_url: https://github.com/LuckDev22/Hyperion-Grupo2/blob/main/Hyperion/yarn.lock
+  detection_source: Hyperion/package.json
+  last_updated_by: Mateus Carius
+  last_updated_on: 2023-03-06 17:46:37.000000000 Z
+- name: React Router
+  description: A complete routing solution for React.js
+  website_url: https://github.com/rackt/react-router
+  version: 6.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/3350/8261421.png
+  detection_source_url: https://github.com/LuckDev22/Hyperion-Grupo2/blob/main/Hyperion/yarn.lock
+  detection_source: Hyperion/package.json
+  last_updated_by: Mateus Carius
+  last_updated_on: 2023-03-06 17:46:37.000000000 Z
+- name: styled-components
+  description: Visual primitives for the component age. Use the best bits of ES6 and
+    CSS to style your apps without stress.
+  website_url: https://styled-components.com
+  version: 5.3.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: JavaScript Framework Components
+  image_url: https://img.stackshare.io/service/6749/styled-components.png
+  detection_source_url: https://github.com/LuckDev22/Hyperion-Grupo2/blob/main/Hyperion/yarn.lock
+  detection_source: Hyperion/package.json
+  last_updated_by: Mateus Carius
+  last_updated_on: 2023-03-06 17:46:37.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/LuckDev22/Hyperion-Grupo2
+  detection_source: Repo Metadata
+- name: Vite
+  description: Native-ESM powered web dev build tool
+  website_url: https://vitejs.dev/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/21547/default_1aeac791cde11ff66cc0b20dcc6144eeb185c905.png
+  detection_source_url: https://github.com/LuckDev22/Hyperion-Grupo2/blob/main/Hyperion/package.json
+  detection_source: Hyperion/package.json
+  last_updated_by: Mateus Carius
+  last_updated_on: 2023-03-06 17:46:37.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/LuckDev22/Hyperion-Grupo2/blob/main/Hyperion/yarn.lock
+  detection_source: Hyperion/yarn.lock
+  last_updated_by: Mateus Carius
+  last_updated_on: 2023-03-06 17:46:37.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/LuckDev22/Hyperion-Grupo2/blob/main/Hyperion/package.json
+  detection_source: Hyperion/package.json
+  last_updated_by: Mateus Carius
+  last_updated_on: 2023-03-06 17:46:37.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 1.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/LuckDev22/Hyperion-Grupo2/blob/main/Hyperion/yarn.lock
+  detection_source: Hyperion/package.json
+  last_updated_by: Mateus Carius
+  last_updated_on: 2023-03-06 17:46:37.000000000 Z
+- name: yup
+  website_url: https://github.com/jquense/yup
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10756/339286.png
+  detection_source_url: https://github.com/LuckDev22/Hyperion-Grupo2/blob/main/Hyperion/package.json
+  detection_source: Hyperion/package.json
+  last_updated_by: Mateus Carius
+  last_updated_on: 2023-03-06 17:46:37.000000000 Z
+- name: "@types/react"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react
+  version: 18.0.28
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15894/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/LuckDev22/Hyperion-Grupo2/blob/main/Hyperion/yarn.lock
+  detection_source: Hyperion/package.json
+  last_updated_by: Mateus Carius
+  last_updated_on: 2023-03-06 17:46:37.000000000 Z
+- name: "@types/react-dom"
+  description: TypeScript definitions for React
+  package_url: https://www.npmjs.com/@types/react-dom
+  version: 18.0.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15946/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/LuckDev22/Hyperion-Grupo2/blob/main/Hyperion/yarn.lock
+  detection_source: Hyperion/package.json
+  last_updated_by: Mateus Carius
+  last_updated_on: 2023-03-06 17:46:37.000000000 Z
+- name: react-dom
+  description: React package for working with the DOM
+  package_url: https://www.npmjs.com/react-dom
+  version: 18.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15808/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/LuckDev22/Hyperion-Grupo2/blob/main/Hyperion/yarn.lock
+  detection_source: Hyperion/package.json
+  last_updated_by: Mateus Carius
+  last_updated_on: 2023-03-06 17:46:37.000000000 Z
+- name: react-icons
+  description: SVG React icons of popular icon packs using ES6 imports
+  package_url: https://www.npmjs.com/react-icons
+  version: 4.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16909/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/LuckDev22/Hyperion-Grupo2/blob/main/Hyperion/yarn.lock
+  detection_source: Hyperion/package.json
+  last_updated_by: Mateus Carius
+  last_updated_on: 2023-03-06 17:46:37.000000000 Z
+- name: react-router-dom
+  description: DOM bindings for React Router
+  package_url: https://www.npmjs.com/react-router-dom
+  version: 6.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16025/default_e25d1fbb04a118c79fb444294461417342bd03bf.png
+  detection_source_url: https://github.com/LuckDev22/Hyperion-Grupo2/blob/main/Hyperion/yarn.lock
+  detection_source: Hyperion/package.json
+  last_updated_by: Mateus Carius
+  last_updated_on: 2023-03-06 17:46:37.000000000 Z
+- name: react-toastify
+  description: React notification made easy
+  package_url: https://www.npmjs.com/react-toastify
+  version: 9.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18461/default_5ff724c0ff89bb42698aa80ef3403008cb0d8f72.png
+  detection_source_url: https://github.com/LuckDev22/Hyperion-Grupo2/blob/main/Hyperion/yarn.lock
+  detection_source: Hyperion/package.json
+  last_updated_by: Mateus Carius
+  last_updated_on: 2023-03-06 17:46:37.000000000 Z
+- name: vite
+  description: Native-ESM powered web dev build tool
+  package_url: https://www.npmjs.com/vite
+  version: 4.1.4
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/npm/image.png
+  detection_source_url: https://github.com/LuckDev22/Hyperion-Grupo2/blob/main/Hyperion/yarn.lock
+  detection_source: Hyperion/package.json
+  last_updated_by: Mateus Carius
+  last_updated_on: 2023-03-06 17:46:37.000000000 Z
+  vulnerabilities:
+  - name: Vite dev server option `server.fs.deny` can be bypassed when hosted on case-insensitive
+      filesystem
+    cve_id: CVE-2024-23331
+    cve_url: https://github.com/advisories/GHSA-c24v-8rfc-w8vw
+    detected_date: Jan 20
+    severity: high
+    first_patched: 4.5.2
+  - name: Vite Server Options (server.fs.deny) can be bypassed using double forward-slash
+      (//)
+    cve_id: CVE-2023-34092
+    cve_url: https://github.com/advisories/GHSA-353f-5xf4-qw67
+    detected_date: Nov 23
+    severity: high
+    first_patched: 4.1.5
+- name: yup
+  description: Dead simple Object schema validation
+  package_url: https://www.npmjs.com/yup
+  version: 1.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17215/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/LuckDev22/Hyperion-Grupo2/blob/main/Hyperion/yarn.lock
+  detection_source: Hyperion/package.json
+  last_updated_by: Mateus Carius
+  last_updated_on: 2023-03-06 17:46:37.000000000 Z
