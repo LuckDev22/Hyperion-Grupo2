@@ -1,10 +1,14 @@
-function App() {
+import { ToastContainer } from "react-toastify";
+import { GameProvider } from "./Providers/GameContext/GameContext";
+import { UserProvider } from "./Providers/UserContext/UserContext";
+import { RoutesApp } from "./Routes";
+import "react-toastify/dist/ReactToastify.css";
 
-  return (
-    <div className="App">
-     
-    </div>
-  )
-}
-
-export default App
+export const App = () => (
+  <UserProvider>
+    <GameProvider>
+      <ToastContainer />
+      <RoutesApp />
+    </GameProvider>
+  </UserProvider>
+);
